@@ -1,106 +1,97 @@
-Blinkit Grocery Data Analysis Dashboard
 # 🛒 Blinkit Grocery Data Analysis Dashboard
 
-### 📊 Project Overview / Headline
+## 📊 Project Overview / Headline
 **Blinkit Grocery Data Analysis: Sales & Outlet Performance Dashboard**  
-An interactive Power BI dashboard built to analyze **Blinkit’s grocery sales performance** across **8,523 transactions** — focusing on outlet size, location tier, establishment type, and product attributes to uncover actionable business insights.
+An interactive Power BI dashboard built to analyze Blinkit’s grocery sales performance across **8,523 transactions**.  
+The goal is to identify sales trends, understand outlet performance, and evaluate product-level insights for data-driven business decisions.
 
 ---
 
-### 🎯 Short Description / Purpose
-The **Blinkit Grocery Dashboard** is a visually engaging Power BI report designed to explore grocery sales and outlet trends.  
-It helps stakeholders understand **which outlets, item types, and fat content categories drive the most revenue**, supporting strategic decisions on outlet expansion, optimization, and product distribution.
+## 🎯 Short Description / Purpose
+The **Blinkit Grocery Dashboard** is a Power BI report that visualizes grocery sales data to uncover insights into **outlet size, location tier, establishment year, and product attributes**.  
+It helps business stakeholders optimize outlet performance, refine product strategy, and make better inventory decisions.
 
 ---
 
-### ⚙️ Tech Stack
-The dashboard was created using the following tools and technologies:
+## ⚙️ Tech Stack
+The dashboard was developed using the following tools and technologies:
 
-- 📊 **Power BI Desktop** – Data visualization and dashboard creation  
-- 🧹 **Power Query** – Data cleaning and transformation  
-- 🧠 **DAX (Data Analysis Expressions)** – KPI calculations and dynamic measures  
-- 🧩 **Data Modeling** – Star schema with Item and Outlet dimension tables  
+- **Power BI Desktop** – Main data visualization and reporting platform  
+- **Power Query** – Data cleaning and transformation  
+- **DAX (Data Analysis Expressions)** – Used to create KPIs and calculated measures  
+- **File Formats** – `.pbix` (dashboard), `.xlsx` (dataset), `.png` (visual previews)
 
----
-
-### 🗂️ Data Source
-**Source:** BlinkIT Grocery Dataset (Excel – 8,523 records)
-
-**Includes:**
-- 🏷️ Item characteristics – Type, Fat Content, Visibility, Weight  
-- 🏬 Outlet attributes – Size, Location Tier, Establishment Year, Type  
-- 💰 Performance metrics – Item Sales and Ratings  
-
-Data was modeled to analyze how **product and outlet characteristics influence sales performance**.
+> 💡 Note: Since the dataset contains only one table, **data modeling was not required**.  
+> All transformations and calculations were handled directly in Power Query and DAX.
 
 ---
 
-### 💡 Features / Highlights
+## 🗂️ Data Source
+**Source:** BlinkIT Grocery Dataset (`Excel`, 8,523 records)
 
-#### 🧩 Business Problem
-Blinkit operates grocery outlets across multiple regions but lacked a unified, data-driven view of how **outlet characteristics (size, tier, establishment)** and **product features (fat content, item type)** affect sales.
+**Data Includes:**
+- Item characteristics – Type, Fat Content, Visibility, Weight  
+- Outlet attributes – Size, Location Tier, Establishment Year, Type  
+- Performance metrics – Item Sales and Ratings  
+
+The dataset was cleaned, standardized, and enhanced to prepare for KPI generation and visualization.
+
+---
+
+## 💡 Features / Highlights
+
+### 🧩 Business Problem
+Blinkit needed a consolidated, visual way to understand how **outlet characteristics** and **product attributes** affect sales.  
+Without proper visualization, identifying the best-performing outlets or product categories was difficult.
 
 **Key Questions:**
 - Which outlet types and sizes generate the highest sales?  
-- How do location tiers impact sales performance?  
-- Which product categories should be prioritized for restocking or marketing?
+- Do location tiers influence outlet performance?  
+- Which item categories should be prioritized in marketing and restocking?
 
 ---
 
-#### 🎯 Goal of the Dashboard
+### 🎯 Goal of the Dashboard
 To build a **dynamic, interactive Power BI dashboard** that:
-- Provides a **comprehensive view** of sales performance by outlet and item type  
-- Highlights patterns across outlet size, age, and product attributes  
-- Enables **data-backed decisions** for outlet expansion and product strategy
+- Provides a complete view of sales performance by outlet and item type  
+- Highlights trends across outlet size, establishment year, and product characteristics  
+- Enables **data-driven decisions** for outlet optimization and product strategy
 
 ---
 
-#### 📈 Walkthrough of Key Visuals
-- 🧮 **KPI Cards (Top Section):**  
-  Display Total Sales, Average Sales, Number of Items, and Average Rating for instant performance insights.  
-
-- 📊 **Sales by Item Type (Bar Chart):**  
-  Identifies top-performing product categories.  
-
-- 🍶 **Sales by Fat Content (Bar Chart):**  
-  Compares sales performance between regular and low-fat products.  
-
-- 🏬 **Sales by Outlet Size (Donut Chart):**  
-  Shows revenue share by outlet size — medium-sized outlets lead with ~$508K.  
-
-- 🌍 **Sales by Location Tier (Bar Chart):**  
-  Highlights Tier 3 outlets as top revenue contributors (~$472K).  
-
-- 📆 **Sales by Establishment Year (Line Chart):**  
-  Evaluates sales performance trends by outlet age.  
-
-- 🔍 **Interactive Filters:**  
-  Slicers for outlet type, item category, and location tier for real-time exploration.
+### 📈 Walkthrough of Key Visuals
+- **KPI Cards:** Total Sales, Average Sales, Number of Items, and Average Rating  
+- **Sales by Item Type (Bar Chart):** Identifies top-performing product categories  
+- **Sales by Fat Content (Bar Chart):** Compares regular vs. low-fat item performance  
+- **Sales by Outlet Size (Donut Chart):** Medium-sized outlets lead in total revenue (~$508K)  
+- **Sales by Location Tier (Bar Chart):** Tier 3 outlets contribute the most (~$472K)  
+- **Sales by Establishment Year (Line Chart):** Reveals performance across outlet ages  
+- **Interactive Filters:** Outlet type, item category, and location tier slicers for user-driven analysis
 
 ---
 
-#### 📊 Business Impact & Insights
-- 🏬 **Medium-sized outlets** generated the highest revenue (~$507.9K).  
-- 🌆 **Tier 3 locations** performed best, showing strong suburban demand.  
-- 🍶 **Regular-fat products** outperformed low-fat items across outlets.  
-- 🛒 **Supermarket Type 1** outlets led in total sales and item diversity.  
-- 📈 Dashboard insights supported **strategic decisions on outlet management and expansion.**
+### 📊 Business Impact & Insights
+**Key Insights:**
+- Medium-sized outlets generated the highest revenue (~$507.9K)  
+- Tier 3 locations performed best, showing strong suburban demand  
+- Regular-fat items consistently outperformed low-fat variants  
+- Supermarket Type 1 outlets led in total sales and product diversity  
 
-**Business Impact:**
-- Improved visibility into outlet-wise performance metrics  
-- Guided marketing and stocking decisions  
-- Enabled **data-driven resource allocation** for Blinkit’s retail network
-
----
-
-### 🖼️ Screenshot / Demo
-<img width="1292" height="718" alt="image" src="https://github.com/user-attachments/assets/fee1ac1e-6fce-4a8c-8e69-3c0efa101ccc" />
-
+**Impact:**
+- Improved visibility into outlet and product performance metrics  
+- Supported strategic planning for outlet expansion and optimization  
+- Enhanced inventory and marketing strategies using data-driven insights
 
 ---
 
-### 🧠 Key Takeaways
-This project demonstrates expertise in:
-- Data cleaning and transformation using **Power Query**  
-- Data modeling and DAX-based KPI creation in **Power BI**  
-- Dashboard design and storytelling for **business insight generation**  
+## 🖼️ Screenshot / Demo
+
+<img width="1292" height="718" alt="image" src="https://github.com/user-attachments/assets/2f0a8525-9d5e-4ab2-9471-54d95d4293e5" />
+
+---
+
+## 🧠 Key Takeaways
+This project demonstrates skills in:
+- Data cleaning and transformation with **Power Query**  
+- Creating **DAX-based KPIs** and interactive Power BI visuals  
+- Storytelling with data to drive business recommendations
